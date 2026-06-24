@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- sun circle — solid and large -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 50,28 A 22,22 0 1,1 49.99,28 Z" />
+
+    <!-- rays as thick rounded rectangles -->
+    <!-- top -->
+    <path android:fillColor="#FFB300" android:pathData="M 47,4 L 53,4 L 53,18 L 47,18 Z"
+        android:strokeLineCap="round"/>
+    <!-- bottom -->
+    <path android:fillColor="#FFB300" android:pathData="M 47,82 L 53,82 L 53,96 L 47,96 Z"/>
+    <!-- left -->
+    <path android:fillColor="#FFB300" android:pathData="M 4,47 L 4,53 L 18,53 L 18,47 Z"/>
+    <!-- right -->
+    <path android:fillColor="#FFB300" android:pathData="M 82,47 L 82,53 L 96,53 L 96,47 Z"/>
+    <!-- top-left diagonal -->
+    <path android:fillColor="#FFB300"
+        android:pathData="M 18,14 L 22,18 L 28,12 L 24,8 Z"/>
+    <!-- top-right diagonal -->
+    <path android:fillColor="#FFB300"
+        android:pathData="M 72,8 L 68,12 L 74,18 L 78,14 Z"/>
+    <!-- bottom-left diagonal -->
+    <path android:fillColor="#FFB300"
+        android:pathData="M 18,86 L 22,82 L 28,88 L 24,92 Z"/>
+    <!-- bottom-right diagonal -->
+    <path android:fillColor="#FFB300"
+        android:pathData="M 72,92 L 68,88 L 74,82 L 78,86 Z"/>
+
+</vector>

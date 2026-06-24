@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M75,55 A20,20 0 0,0 55,35 A25,25 0 0,0 30,55 A15,15 0 0,0 30,85 L75,85 A20,20 0 0,0 75,55 Z" />
+    <!-- rain drops -->
+    <path
+        android:strokeColor="#64B5F6"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M38,90 L35,98 M50,90 L47,98 M62,90 L59,98" />
+</vector>
