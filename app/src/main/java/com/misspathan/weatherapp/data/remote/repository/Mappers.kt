@@ -1,4 +1,4 @@
-package com.misspathan.weatherapp.data.repository
+package com.misspathan.weatherapp.data.remote.repository
 
 import com.misspathan.weatherapp.data.local.entity.UserEntity
 import com.misspathan.weatherapp.data.local.entity.WeatherHistoryEntity

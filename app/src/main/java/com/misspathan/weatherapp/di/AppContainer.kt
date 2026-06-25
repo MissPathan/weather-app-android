@@ -4,8 +4,8 @@ import android.content.Context
 import com.misspathan.weatherapp.BuildConfig
 import com.misspathan.weatherapp.data.local.AppDatabase
 import com.misspathan.weatherapp.data.remote.api.WeatherApiService
-import com.misspathan.weatherapp.data.repository.AuthRepositoryImpl
-import com.misspathan.weatherapp.data.repository.WeatherRepositoryImpl
+import com.misspathan.weatherapp.data.remote.repository.AuthRepositoryImpl
+import com.misspathan.weatherapp.data.remote.repository.WeatherRepositoryImpl
 import com.misspathan.weatherapp.domain.repository.AuthRepository
 import com.misspathan.weatherapp.domain.repository.WeatherRepository
 import com.misspathan.weatherapp.domain.usecase.GetCurrentWeatherUseCase

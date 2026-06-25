@@ -1,4 +1,4 @@
-package com.misspathan.weatherapp.data.repository
+package com.misspathan.weatherapp.data.remote.repository
 
 import com.misspathan.weatherapp.BuildConfig
 import com.misspathan.weatherapp.data.local.dao.WeatherHistoryDao

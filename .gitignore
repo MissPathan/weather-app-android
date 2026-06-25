@@ -14,7 +14,5 @@
 .cxx
 *.jks
 *.keystore
-# local.properties has the API key — never commit this
-local.properties
 
 

@@ -1,4 +1,4 @@
-package com.misspathan.weatherapp.ui.theme
+package com.misspathan.weatherapp.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme

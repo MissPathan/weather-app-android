@@ -21,7 +21,7 @@ import com.misspathan.weatherapp.presentation.auth.LoginScreen
 import com.misspathan.weatherapp.presentation.auth.RegisterScreen
 import com.misspathan.weatherapp.presentation.navigation.Screen
 import com.misspathan.weatherapp.presentation.weather.WeatherViewModel
-import com.misspathan.weatherapp.ui.theme.WeatherAppTheme
+import com.misspathan.weatherapp.theme.WeatherAppTheme
 import com.misspathan.weatherapp.util.SessionManager
 
 class MainActivity : ComponentActivity() {
