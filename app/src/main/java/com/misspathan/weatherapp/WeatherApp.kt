@@ -11,7 +11,8 @@ class WeatherApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
+        // SessionManager must be initialised before anything reads isLoggedIn()
+        SessionManager.init(this)
         container = AppContainer(this)
     }
 }

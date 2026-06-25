@@ -1,6 +1,7 @@
 package com.misspathan.weatherapp.util
 
 import android.content.Context
+import android.content.SharedPreferences
 import com.misspathan.weatherapp.R
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -53,7 +54,7 @@ object SessionManager {
     private const val KEY_USER_NAME = "user_name"
     private const val NO_USER = -1
 
-    private lateinit var prefs: android.content.SharedPreferences
+    private lateinit var prefs: SharedPreferences
 
     fun init(context: Context) {
         prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
